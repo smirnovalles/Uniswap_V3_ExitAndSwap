@@ -13,7 +13,7 @@ interface INonfungiblePositionManager {
         uint256 tokenId;
         address recipient;
         uint128 amount0Max;
-        uint128 amount1Max;
+        uint128 amount1Max; 
     }
 
     /// ↓ заменяем burn() на decreaseLiquidity()
